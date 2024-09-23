@@ -5,9 +5,9 @@ function Contador() {
   const [contador, setContador] = useState(0);
 
   useEffect(() => {
-    document.title(`Contador: ${contador}`)
+    document.title=`Contador : ${contador}`
   }, [contador])
-  
+
   const incrementar = () => {
     setContador(contador + 1);
   }
